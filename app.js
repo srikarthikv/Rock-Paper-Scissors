@@ -33,7 +33,7 @@ function win(userChoice, computerChoice){
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML=computerScore;
     //result_p.innerHTML=`${convertToWord(userChoice)} ${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord} YOU WIN!`;
-    result_p.innerHTML=`${convertToWord(userChoice)}  beats ${convertToWord(computerChoice)}        ----YOU WIN!`;  
+    result_p.innerHTML=`${convertToWord(userChoice)}  beats ${convertToWord(computerChoice)}        ----YOU WON!`;  
     userChoice_div.classList.add('green-glow');
     setTimeout(() => userChoice_div.classList.remove('green-glow'),500);
 }
